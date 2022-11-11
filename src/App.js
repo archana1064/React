@@ -7,6 +7,9 @@ import FirstFunc from './FirstFunc';
 import Counter from './Counter';
 import Text from './Text';
 import NameTest from './NameTest';
+import Expense1 from './Expense1';
+
+
 
 function App() {
   return (
@@ -15,11 +18,15 @@ function App() {
     Welcome to React
    </h1>
    <MyClassComponent/>
-   <Test name="Archana"/>
+  <Test name="Archana"/>
    <FirstFunc name="Kumari"/>
    <Counter/>
    <Text/>
    <NameTest/>
+   <Expense1/>
+
+  
+
     </div>
   );
 }
