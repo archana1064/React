@@ -3,10 +3,12 @@ import React, { useEffect,useState } from 'react';
 function FunctionComp(props) {
     
 
+
   function Topfunct()
   { 
     const top ="First Component"
    console.log(top)
+   
 
   }
   function Middlefunc()
@@ -34,7 +36,8 @@ Topfunct();
 
     return (
         <div>
-           <p1>Function Components</p1>
+          <h1>This is the function</h1>
+        
         </div>
     );
 }
